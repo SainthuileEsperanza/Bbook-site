@@ -1,0 +1,143 @@
+body {
+  background-color: #fff0e2;
+  color: #754C24;
+}
+
+header{
+  background-color: #f8dab3;
+  border-bottom: 5px solid #754C24;
+  display: flex;
+  flex-direction: row;
+}
+nav {
+  margin-left: 37%;
+  margin-top: 5%;
+  margin-bottom: 1%;
+  word-spacing: 25px;
+}
+
+header a {
+  font-size: 250%;
+  color: #754C24;
+}
+header a:hover {
+  color: #d58d41;
+}
+
+footer {
+  background-color: #f8dab3;
+  border-top: 5px solid #754C24;
+  text-align: center;
+  font-size: 150%;
+}
+footer h6 {
+  padding-bottom: 2%;
+  font-size: 110%;
+}
+footer a:hover {
+  color: #d58d41;
+}
+
+.articleApropos {
+  display: flex;
+  flex-direction: row;
+}
+.articleAproposTexte {
+  font-size: 150%;
+  margin-left: 3%;
+  margin-right: 15%;
+}
+.articleAproposTexte a {
+  font-size: 125%;
+  margin-left: 0.5%;
+  margin-right: 0.5%;
+}
+.articleAproposTexte a:hover {
+  color: #d58d41;
+}
+
+th, td {
+  border: 2px solid #754C24;
+  border-top: none;
+  font-size: 200%;
+  max-width: 85ch; /* Limite la largeur des caractères*/
+  text-align: center;
+
+}
+
+table {
+  border-collapse: collapse;
+  margin-left: 1%;
+  margin-bottom: 5%;
+}
+
+.toptrois {
+  font-size: 400%;
+  border-left: 5px solid #754C24;
+  margin-left: 1%;
+  padding-left: 2%;
+  margin-bottom: 5%;
+  margin-top: 5%;
+}
+
+#formulaireTitre {
+  margin-top: 2%;
+  display: flex;
+  justify-content: center;
+  font-size: 300%;
+}
+
+form {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  padding-left: 36%;
+  padding-right: 36%;
+  font-size: 150%;
+  margin-bottom: 2%;
+
+}
+#categorieLivre, #genreLivre, textarea, #soumettre {
+  font-size: 110%;
+  color: #754C24;
+  border: 1px dashed #754C24;
+  background-color: #f8dab3;
+  border-radius: 10px;
+}
+
+#soumettre:hover {
+  color: #f8dab3;
+  background-color: #754C24;
+  cursor: pointer;
+}
+
+.conteneurContact img  {
+  width: 7%;
+  margin-top: 5%;
+}
+.conteneurContact {
+  display: flex;
+  flex-direction: column;
+  margin-left: 20%;
+  margin-right: 5%;
+  font-size: 300%;
+  align-items: center;
+  margin-bottom: 22%;
+}
+
+.conteneurContact h1 {
+  margin-left: -20%;
+}
+.conteneurContact a:hover {
+  color: #d58d41;
+}
+
+.actionArticle {
+  font-size: 150%;
+  text-align: center;
+  padding-top: 5%;
+  padding-bottom: 28%;
+}
+
+
+

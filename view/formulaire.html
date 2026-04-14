@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="fr">
+  <head>
+    <meta charset="UTF-8">
+    <title>formulaire</title>
+    <link rel="stylesheet" href="../css/style.css">
+  </head>
+  <body>
+    <header>
+      <a href="accueil.html"><img src="../images/Bbook.svg" alt="logo" width="200" height="200"></a>
+      <nav>
+        <a href="accueil.html">Accueil</a>
+        <a href="contact.html">Contact</a>
+      </nav>
+    </header>
+    <section>
+      <article>
+
+        <h1 id="formulaireTitre">Recevez votre liste personnalisée</h1>
+
+        <form method="post" action="action.html" enctype="multipart/form-data">
+
+          <!--Genre livre-->
+
+          <h3><label for="genreLivre">Genre :</label></h3>
+          <select name="genreLivre" id="genreLivre">
+            <option value="romance" selected="selected">Romance</option>
+            <option value="horreur">Horreur</option>
+            <option value="fantaisie">Fantaisie</option>
+            <option value="humour">Humour</option>
+            <option value="biographie">Biographie</option>
+            <option value="policier">Policier</option>
+            <option value="science_fiction">Science-Fiction</option>
+            <option value="psychologie">Psychologie</option>
+            <option value="fantastique">Fantastique</option>
+            <option value="historique">Historique</option>
+            <option value="aventure">Aventure</option>
+          </select>
+
+          <!--catégorie livre-->
+
+          <h3><label for="categorieLivre">Catégorie :</label></h3>
+          <select name="categorieLivre" id="categorieLivre">
+            <option value="jeunesse">Jeunesse</option>
+            <option value="adolescent">Adolescent</option>
+            <option value="adulte">Adulte</option>
+          </select>
+
+          <!--format livre-->
+
+          <h3>Format :</h3>
+          <ul>
+            <li>
+              <input type="radio" name="formatLivre" id="papier" value="vPapier" checked="checked" />
+              <label for="papier">papier</label>
+            </li>
+            <li>
+              <input type="radio" name="formatLivre" id="ebook" value="vEbook" />
+              <label for="ebook">Ebook</label>
+            </li>
+            <li>
+              <input type="radio" name="formatLivre" id="audio" value="vAudio" />
+              <label for="audio">Audio</label>
+            </li>
+          </ul>
+
+          <!--Mots clés-->
+          <h3>mots clés :</h3>
+          <label for="motsClesLivre"></label>
+          <textarea name="motsClesLivre" id="motsClesLivre"
+                    placeholder="Entrez des mots clés afin que nous puissions appronfondir notre recherche" cols="30" rows="15"></textarea>
+
+          <p><input type="submit" value="Soumettre" id="soumettre"/></p>
+        </form>
+      </article>
+    </section>
+    <footer>
+      <h4>@Bbook</h4>
+
+      <!--le # pour revenir en haut de la page-->
+
+      <a href="#"><h6>Revenir en haut de la page</h6></a>
+    </footer>
+  </body>
+</html>

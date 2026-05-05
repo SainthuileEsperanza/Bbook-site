@@ -17,14 +17,7 @@
       <article>
 
         <h1 id="formulaireTitre">Recevez votre liste personnalisée</h1>
-        <script>
-          const form = document.querySelector('form');
-          form.addEventListener('submit', function(e) {
-          e.preventDefault(); // Empêche l'envoi (et donc l'erreur 405)const formData = new FormData(form);
-          console.log("Genre choisi :", formData.get('genreLivre'));
-          alert("Merci ! (Les données sont restées dans votre navigateur)");
-          });
-        </script>
+        
         <form method="post" action="https://sainthuileesperanza.github.io/Bbook-site/view/action.html" enctype="multipart/form-data">
 
           <!--Genre livre-->
